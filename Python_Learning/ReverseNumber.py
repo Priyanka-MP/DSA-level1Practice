@@ -10,5 +10,6 @@ def reverseFunction(n,temp=" "):
     newNum = n // 10
     temp += str(lastNum)
     return reverseFunction(newNum, temp)
+
 n = int(input("Enter the number to be reversed:  "))
 print(reverseFunction(n))

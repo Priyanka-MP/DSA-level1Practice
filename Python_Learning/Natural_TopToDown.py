@@ -6,7 +6,8 @@ for i in range(1,N + 1):
 
     """
     using while loop :
-    while i <= N 
+    i = 1
+    while i <= N :
     print(i, end=" ")
     i += 1
     """
