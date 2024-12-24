@@ -10,9 +10,10 @@ def remove_that(lst, x):
 """  
 A = [10,20,30,40,50]
 X = 0
+#Note: For x = 0, the condition 1 <= x fails, so the lst.pop() operation is not executed.
 updated_list = remove_that(A,X)
 print(" ".join(map(str, updated_list)) + " ")
-#map ==converts the integer element to string such as "10,20,30,40,50"
+#map == converts the integer element to string such as "10,20,30,40,50"
 #.join == joins the strings such as '10','20','30','40','50'
 # +" " == adds trailing space at the end such as [ '10','20','30','40','50' ]
 
